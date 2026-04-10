@@ -1,0 +1,42 @@
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Laravel core
+/vendor
+/node_modules
+
+# Build & cache
+/public/build
+/public/hot
+/storage/*.key
+/storage/pail
+/bootstrap/cache/*.php
+.phpunit.cache
+.phpunit.result.cache
+
+# Logs
+npm-debug.log
+yarn-error.log
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+
+# IDE / Editor folders
+/.idea
+/.vscode
+/.fleet
+/.zed
+
+# Laravel storage (optional except important files)
+/public/storage
+
+# Homestead
+Homestead.json
+Homestead.yaml
+
+# Auth / tools
+/auth.json
+.phpactor.json
